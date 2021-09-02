@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <input type="file" id="input-file" accept="video/*" multiple>
+  <section id="preview">
+
+  </section>
+
+  <template id="template-upload">
+    <article class="card-upload">
+      <span class="card__loading"></span>
+      <p class="card__title"> </p>
+      <progress id="card__progress" value="0" max="100"></progress>
+    </article>
+  </template>
+  <script src="main.js"></script>
+</body>
+
+</html>
